@@ -2422,10 +2422,16 @@ textarea.form-control {
   color: #212529;
   text-decoration: none;
 }
+/* .btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25); */
+/* } */
+
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 153, 153, 0.25);
 }
+
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
 }
@@ -9777,7 +9783,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #20c997 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
