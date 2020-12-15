@@ -2446,8 +2446,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #000000;
-  background-color: #d6f5f5;
-  border-color: #d6f5f5;
+  background-color: #20c997;
+  border-color: #20c997;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2456,8 +2456,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #20c997;
-  border-color: #20c997;
+  background-color: #d6f5f5;
+  border-color: #d6f5f5;
   box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2939,6 +2939,13 @@ input[type=reset].btn-block,
 input[type=button].btn-block {
   width: 100%;
 }
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+/* ref: https://stackoverflow.com/questions/5119711/whats-the-easiest-way-to-put-space-between-2-side-by-side-buttons-in-asp-net */
 
 .fade {
   transition: opacity 0.15s linear;
